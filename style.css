@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background: #042029;
+	color: #FFFFFF;
+	font-size: 35px;
+	text-align: center;
+}
+
+div#about {
+	margin-top: 25px;
+	font-family: cursive;
+	color: yellow;
+}
+
+div.container {
+	height: 306px;
+	width: 306px;
+	margin: 50px auto;
+	border: 1px solid #FFFFFF;
+}
+
+div.element {
+	border: 1px solid #FFFFFF;
+	float: left;
+	height: 100px;
+	width: 100px;
+	cursor: pointer;
+}
+
+p#playerInfo {
+	text-align: center;
+	font-family: monospace;
+}
+
+div#footer {
+	background-color: #0a483a;
+	font-family: cursive;
+	font-size: 20px;
+	font-weight: bold;
+	height: 65px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
