@@ -71,7 +71,7 @@ function resetGame () {
 
 /* Click and Touch Handler Function */
 
-function clickHandler () {
+function clickHandler (e) {
 
 	if (player == 1 && this.getAttribute("data-set") == "false") {
 
@@ -111,6 +111,6 @@ function clickHandler () {
 	playerInfo.innerHTML = "Player " + player + "'s Turn";
 
 	e.stopPropagation();
-    e.preventDefault();
+    	e.preventDefault();
 
 }; // onmouseclick event handler
